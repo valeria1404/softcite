@@ -1,0 +1,21 @@
+{
+  "name": "citasproyecto",
+  "version": "1.0.0",
+  "description": "aplicacion para reservar citas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valeria Hernandez Dominguez",
+  "license": "MIT",
+  "dependencies": {
+    "angular-bootstrap-calendar": "^0.25.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "moment": "^2.15.2",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.5",
+    "nodemon": "^1.11.0",
+    "start-express-mongoose": "^0.2.0"
+  }
+}
