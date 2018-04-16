@@ -1,5 +1,4 @@
-angular.module('myApp', [require('angular-bootstrap-calendar'), require('angular-ui-bootstrap')])
-  .controller('KitchenSinkCtrl', function(moment, alert, calendarConfig) {
+    angular.module('myApp', [require('angular-bootstrap-calendar'), require('angular-ui-bootstrap')]).controller('KitchenSinkCtrl', function(moment, alert, calendarConfig) {
 
     var vm = this;
     console.log("auajbdghsbd");

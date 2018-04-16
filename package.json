@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "angular-bootstrap-calendar": "^0.25.0",
+    "angular-calendar": "^0.23.7",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "moment": "^2.15.2",

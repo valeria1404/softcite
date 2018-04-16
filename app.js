@@ -1,6 +1,6 @@
-var express = require('express');
+var express      = require('express');
 var mongoose     = require ('mongoose');
-
+var path         = require('path');
 var app = express();
 
 app.set("view engine","ejs");
@@ -17,13 +17,14 @@ app.get("/index",function(req,res){
 app.get("/login",function(req,res){
  res.render('login');
 });
+app.get("/calendar",function(req,res){
+ res.render('calendar');
+});
 
-app.get("/citas/:id?",function(req,res){
+app.get("/citas",function(req,res){
   var params = req.id;
   /*find a mongodb*/
-  res.render('citas',{
-    name_user : "hola"
-  });
+  res.render('citas');
 });
 
 

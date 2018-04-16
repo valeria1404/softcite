@@ -1,5 +1,4 @@
-<!doctype html>
-<html ng-app>
+<html>
   <head>
     <title>Registro</title>
     <meta charset="utf-8"></meta>
@@ -32,26 +31,26 @@
     <div class="log">
       <div id="login">
         <div class="row">
-           <form class="col s12"  ng-submit='submit2()' ng-controller='Register'>
+           <form class="col s12"  ng-submit='registro()' ng-controller='Register'>
              <div class="row">
                <div class="input-field col s12">
-                 <input id="name" type="text" class="validate">
+                 <input id="name" type="text" class="validate" ng-model="username">
                  <label for="name">Nombre de usuario</label>
                </div>
              </div>
              <div class="row">
                <div class="input-field col s12">
-                 <input id="email" type="email" class="validate">
+                 <input id="email" type="email" class="validate" ng-model="email">
                  <label for="email">Correo Eléctronico</label>
                </div>
              </div>
              <div class="row">
                <div class="input-field col s12">
-                 <input id="password" type="password" class="validate">
+                 <input id="password" type="password" class="validate" ng-model="pass">
                  <label for="password">Contraseña</label>
                </div>
              </div>
-             <button  class="btn waves-effect waves-light" type="submit" name="action">Iniciar Sesión
+             <button  class="btn waves-effect waves-light" type="submit" name="action">Registrate
                <i class="material-icons right">send</i>
              </button>
            </form>
@@ -84,9 +83,9 @@
             </div>
           </div>
         </footer>
-        <script src="./public/js/controllers/register.js"></script>
+        <script type="application/javascript" src="../public/js/controllers/register.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   </body>
 </html>
